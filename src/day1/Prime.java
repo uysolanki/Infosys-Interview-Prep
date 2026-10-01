@@ -1,0 +1,31 @@
+package day1;
+
+import java.util.Scanner;
+
+public class Prime {
+public static void main(String[] args) {
+	//Prime number which is divible by 1 & itself
+	//input :7   output: prime  
+	//input :8   output: not prime 
+	
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Please enter a number");
+	int n=sc.nextInt();
+	int loopCounter=0;
+	System.out.println(n);
+	int counter=0;
+	for(int i=1;i<=n;i++)
+	{
+		loopCounter++;
+		if(n%i==0)
+			counter++;
+			
+	}
+	if(counter==2)
+		System.out.println("Prime");
+	else
+		System.out.println("Not Prime");
+	
+	System.out.println("Iteration Count " + loopCounter);
+}
+}
