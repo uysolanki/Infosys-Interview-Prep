@@ -1,6 +1,5 @@
 houses=[4,5,8,3,1]
 
-
 def calcMaxLoot(houses):
     dp=[]
     dp.append(houses[0])

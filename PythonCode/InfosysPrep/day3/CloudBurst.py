@@ -1,7 +1,5 @@
 clouds=[0,0,1,0,0,1,0,0]
 
-
-
 def playGame(clouds):
     position=0
     jumpCounter=0
