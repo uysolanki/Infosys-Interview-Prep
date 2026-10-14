@@ -8,5 +8,4 @@ def checkAnagrams(s1,s2):
 
 print("Anagram" if checkAnagrams(s1, s2) else "Not Anagram")
 
-
 checkAnagrams("silent","listen")
