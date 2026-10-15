@@ -36,7 +36,6 @@ public class StringEncoding2 {
 				hashmap.put(ch, 1);
 			}
 		}
-		
 		System.out.println(hashmap);
 		
 		for(Entry<Character,Integer> entry: hashmap.entrySet())
